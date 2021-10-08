@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>numbers2words</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Please enter any number to get the words form</h1>
+      <input
+        id="Text1"
+        type="text"
+        placeholder="enter any number"
+        onkeypress="return onlyNumbers(this.value);"
+        onkeyup="NumToWord(this.value,'displayWords');"
+        maxlength="9"
+      />
+      <div id="displayWords"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

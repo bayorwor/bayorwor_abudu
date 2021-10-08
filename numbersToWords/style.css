@@ -1,0 +1,16 @@
+#container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+#displayWords {
+  font-size: 40;
+  color: #55488d;
+}
+input {
+  border: 2px solid #dedede;
+  font-size: large;
+  margin-bottom: 20px;
+  width: 300px;
+}
